@@ -1,0 +1,31 @@
+{
+  "name": "cleanblog3",
+  "version": "1.0.0",
+  "description": "Clean Blog App",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErenBerkSari/CleanBLog.git"
+  },
+  "keywords": [
+    "blog",
+    "app"
+  ],
+  "author": "Eren Berk Sarı",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ErenBerkSari/CleanBLog/issues"
+  },
+  "homepage": "https://github.com/ErenBerkSari/CleanBLog#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.4",
+    "prettier": "3.3.3"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
